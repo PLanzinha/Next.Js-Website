@@ -14,7 +14,7 @@ export default function About() {
             with the usage of refinements, planning sessions, daily stand-ups, and retrospectives, ensuring comprehensibility and communication among all members so as to contribute to project success. 
             </p>
             <p className="mb-4">
-            I'm adept at teamwork, working closing with colleagues to analyse data and to translate business needs into technical solutions.
+            I&apos;m adept at teamwork, working closing with colleagues to analyse data and to translate business needs into technical solutions.
             </p>
             <p className="mb-4">
               With expertise in modern web technologies, I aim to bring ideas to life 

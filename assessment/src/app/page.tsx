@@ -5,7 +5,7 @@ export default function Home() {
     <div className="text-center">
       <h1 className="text-4xl font-bold mb-4">Welcome to My Portfolio</h1>
       <p className="text-xl mb-8">
-        I'm a passionate web developer creating amazing digital experiences.
+        I&apos;m a passionate web developer learning more so as to create better experiences for real world problems using real world solutions.
       </p>
       <div className="flex justify-center gap-4">
         <Link 

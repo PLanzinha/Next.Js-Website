@@ -30,7 +30,7 @@ export default function Resume() {
         <div className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">Education</h2>
           <div>
-            <h3 className="text-xl font-medium">Bachelor's in Computer Science</h3>
+            <h3 className="text-xl font-medium">Bachelor&apos;s in Computer Science</h3>
             <p className="text-gray-600">University Name, 2016 - 2020</p>
           </div>
         </div>
