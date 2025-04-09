@@ -24,7 +24,7 @@ export default function Resume() {
             <h3 className="text-xl font-medium">Analyst and Software Developer - Consultant for EDP at Tekever</h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">Lisbon, Portugal | 08/2019 – 08/2022</p>
             <ul className="list-disc pl-5 mt-2 space-y-1 text-gray-700 dark:text-gray-300">
-              <li>Played an important role as an Analyst and Software Developer in a new project for EDP (Portugal's leading energy company), utilizing C#, SQL, and in-house software to develop and test a Website as well as a Mobile application.</li>
+              <li>Played an important role as an Analyst and Software Developer in a new project for EDP (Portugal&apos;s leading energy company), utilizing C#, SQL, and in-house software to develop and test a Website as well as a Mobile application.</li>
               <li>Adhered to project requirements by realizing tests over several environments ensuring developments were almost always issue free and adhering to deadlines.</li>
               <li>Utilized problem solving skills to optimize performance when needed.</li>
               <li>Used Jira and Confluence for project management to improve track tasks, issues, and progress throughout the full development lifecycle.</li>
@@ -37,7 +37,7 @@ export default function Resume() {
             <h3 className="text-xl font-medium">Intern Consultant for CUF Hospital at Tekever (Internship)</h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">Lisbon, Portugal | 05/2019 – 08/2019</p>
             <ul className="list-disc pl-5 mt-2 space-y-1 text-gray-700 dark:text-gray-300">
-              <li>Managed to improve patient data access efficiency, by revamping CUF Hospital's website user interface design.</li>
+              <li>Managed to improve patient data access efficiency, by revamping CUF Hospital&apos;s website user interface design.</li>
               <li>Contributed to the development of a Web Application using PHP and MySQL for managing call center workers, aiming to increase productivity.</li>
               <li>Participated in meetings with client-side managers to gather requirements, discuss features, and provide progress updates.</li>
             </ul>
@@ -118,12 +118,12 @@ export default function Resume() {
             <div><span className="font-medium">Data Warehousing Concepts</span> - DataCamp</div>
             <div><span className="font-medium">Introduction to SQL</span> - DataCamp</div>
             <div><span className="font-medium">Intermediate SQL</span> - DataCamp</div>
-            <div><span className="font-medium">The Complete Business Analysis Fundamentals</span> - O'Reilly</div>
-            <div><span className="font-medium">Tableau Masterclass 2024</span> - O'Reilly</div>
-            <div><span className="font-medium">Microsoft Power BI Skills</span> - O'Reilly</div>
+            <div><span className="font-medium">The Complete Business Analysis Fundamentals</span> - O&apos;Reilly</div>
+            <div><span className="font-medium">Tableau Masterclass 2024</span> - O&apos;Reilly</div>
+            <div><span className="font-medium">Microsoft Power BI Skills</span> - O&apos;Reilly</div>
             <div><span className="font-medium">KNIME Certification L1</span> - KNIME Certification</div>
-            <div><span className="font-medium">Azure SQL Data Warehouse Synapse Analytics Service</span> - O'Reilly</div>
-            <div><span className="font-medium">SNOWFLAKE - An Introduction Course</span> - O'Reilly</div>
+            <div><span className="font-medium">Azure SQL Data Warehouse Synapse Analytics Service</span> - O&apos;Reilly</div>
+            <div><span className="font-medium">SNOWFLAKE - An Introduction Course</span> - O&apos;Reilly</div>
          </div>
        </div>
 

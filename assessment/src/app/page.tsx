@@ -16,7 +16,7 @@ export default function Home() {
         />
       </div>
       <p className="text-xl mb-8 max-w-2xl">
-        My name is Pedro Lanzinha, and I'm a passionate Analyst, SQL Developer, Engineer who is aiming to learn and understand more so as to create better experiences for real world problems by using real world solutions.
+        My name is Pedro Lanzinha, and I&apos;m a passionate Analyst, SQL Developer, Engineer who is aiming to learn and understand more so as to create better experiences for real world problems by using real world solutions.
       </p>
       <div className="flex justify-center gap-4">
         <Link
