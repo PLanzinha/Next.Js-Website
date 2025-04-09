@@ -1,7 +1,7 @@
 "use client";
 
-import React from 'react';
-import Slider from 'react-slick';
+import React from "react";
+import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -109,14 +109,14 @@ const CertificateCarousel: React.FC<CertificateCarouselProps> = ({ certificates 
                                 href={cert.pdfUrl}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="block hover:opacity-80 transition-opacity duration-200 flex-grow flex flex-col"
+                                className="hover:opacity-80 transition-opacity duration-200 flex-grow flex flex-col"
                                 aria-label={`View certificate: ${cert.title}`}
                             >
                                 <img
-                                    src={cert.imageUrl || 'https://via.placeholder.com/200x150?text=Certificate'}
+                                    src={cert.imageUrl || "https://via.placeholder.com/200x150?text=Certificate"}
                                     alt={`Thumbnail for ${cert.title}`}
                                     className="w-full h-40 object-contain mb-3 rounded border"
-                                    onError={(e) => (e.currentTarget.src = 'https://via.placeholder.com/200x150?text=Error+Loading')}
+                                    onError={(e) => (e.currentTarget.src = "https://via.placeholder.com/200x150?text=Error+Loading")}
                                 />
                                 <h3 className="font-semibold text-black text-sm mb-1 mt-auto">{cert.title}</h3>
                             </a>

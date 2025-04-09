@@ -1,5 +1,5 @@
 import React from 'react';
-import CertificateCarousel, { certificateData } from '@/components/CertificateCarousel';
+import CertificateCarousel, { certificateData } from "@/components/CertificateCarousel";
 
 export default function About() {
     return (
