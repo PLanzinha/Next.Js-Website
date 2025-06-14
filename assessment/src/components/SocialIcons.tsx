@@ -8,33 +8,38 @@ const socialContainerVariants = {
   hidden: {},
   visible: {
     transition: {
-      staggerChildren: 0.15,
-      delayChildren: 0.3,
+      staggerChildren: 0.1,
+      delayChildren: 0.4,
     }
   }
 };
 
 const iconVariants = {
-  hidden: { opacity: 0, y: 10, scale: 0.8 },
-  visible: { opacity: 1, y: 0, scale: 1, transition: { type: "spring", stiffness: 150, damping: 12 } },
-  hover: {
-    scale: 1.2,
-    color: "#60a5fa",
-    transition: { duration: 0.2 }
+  hidden: { opacity: 0, y: 15, scale: 0.7 },
+  visible: { 
+    opacity: 1, 
+    y: 0, 
+    scale: 1, 
+    transition: { type: "spring", stiffness: 180, damping: 10 }
   },
-  tap: { scale: 0.9 }
+  hover: {
+    scale: 1.25,
+    color: "#60a5fa",
+    transition: { type: "spring", stiffness: 300, damping: 10 }
+  },
+  tap: { scale: 0.85 }
 };
 
 const SocialIcons = () => {
   const socialLinks = [
-    { href: "https://github.com/PLanzinha", label: "GitHub", icon: <Github size={24} /> },
-    { href: "https://www.linkedin.com/in/pedro-sousa-racoes", label: "LinkedIn", icon: <Linkedin size={24} /> },
-    { href: "mailto:pedrolanzinha1995@gmail.com", label: "Email", icon: <Mail size={24} /> },
+    { href: "https://github.com/PLanzinha", label: "GitHub", icon: <Github className="w-5 h-5 sm:w-6 sm:h-6" /> },
+    { href: "https://www.linkedin.com/in/pedro-sousa-racoes", label: "LinkedIn", icon: <Linkedin className="w-5 h-5 sm:w-6 sm:h-6" /> },
+    { href: "mailto:pedrolanzinha1995@gmail.com", label: "Email", icon: <Mail className="w-5 h-5 sm:w-6 sm:h-6" /> },
   ];
 
   return (
     <motion.div
-      className="flex space-x-5 sm:space-x-6"
+      className="flex items-center space-x-4 xs:space-x-5 sm:space-x-6"
       variants={socialContainerVariants}
       initial="hidden"
       animate="visible"
@@ -51,7 +56,7 @@ const SocialIcons = () => {
             target={social.label !== "Email" ? "_blank" : undefined}
             rel={social.label !== "Email" ? "noopener noreferrer" : undefined}
             aria-label={social.label}
-            className="text-white hover:text-gray-300 transition-colors"
+            className="text-gray-300 hover:text-blue-400 transition-colors duration-200 p-1"
           >
             {social.icon}
           </Link>

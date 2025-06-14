@@ -1,6 +1,7 @@
 "use client";
 
 import Link from 'next/link';
+import Image from 'next/image'; 
 import Navigation from './Navigation';
 import { motion } from 'framer-motion';
 
@@ -16,34 +17,37 @@ const headerVariants = {
 const Header = () => {
   return (
     <motion.header
-      className="bg-gray-800 text-white sticky top-0 z-50 shadow-md"
+      className="bg-gray-800 text-white sticky top-0 z-50 shadow-lg"
       variants={headerVariants}
       initial="hidden"
       animate="visible"
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center"> 
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex justify-between items-center">
         <motion.div
-          whileHover={{ scale: 1.03, color: "#60a5fa" }} 
-          transition={{ type: "spring", stiffness: 400, damping: 15 }} 
+          whileHover={{ scale: 1.03 }}
+          transition={{ type: "spring", stiffness: 400, damping: 15 }}
         >
-          <Link href="/" className="flex items-center group text-2xl font-bold transition-colors hover:text-blue-400"> 
-            <div className="relative w-9 h-9 sm:w-10 sm:h-10 mr-2 sm:mr-3 transition-transform duration-300 group-hover:scale-110"> 
-             {/* <Image
-                src="/P_3.png"
-                alt="Pedro Lanzinha Logo" 
-                fill 
-                sizes="(max-width: 640px) 36px, 40px" 
-                className="object-contain rounded-sm" 
-                priority 
-              /> */}
+          <Link
+            href="/"
+            className="flex items-center group text-xl font-bold transition-colors hover:text-blue-300"
+          >
+            <div className="relative w-8 h-8 mr-2 transition-transform duration-300 group-hover:scale-110 show-under-400">
+              <Image
+                src="/images/P_3.png"
+                alt="PL Icon"
+                fill
+                sizes="32px"
+                className="object-contain rounded-sm"
+                priority
+              />
             </div>
-            <span className="whitespace-nowrap">Pedro Lanzinha</span> 
+            <span className="hide-under-400 whitespace-nowrap">Pedro Lanzinha</span>
           </Link>
         </motion.div>
         <Navigation />
       </div>
     </motion.header>
-  )
-}
+  );
+};
 
 export default Header;
