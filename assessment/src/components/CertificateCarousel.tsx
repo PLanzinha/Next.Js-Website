@@ -9,41 +9,83 @@ import "slick-carousel/slick/slick-theme.css";
 const certificateData = [
     {
         id: 1,
+        title: "Data Engineer in Python",
+        imageUrl: "/images/7.png",
+        pdfUrl: "/pdf/d7.pdf",
+        description: "DataCamp"
+    },
+    {
+        id: 2,
+        title: "Associate Data Engineer in SQL",
+        imageUrl: "/images/8.png",
+        pdfUrl: "/pdf/d8.pdf",
+        description: "DataCamp"
+    },
+    {
+        id: 3,
+        title: "Git Fundamentals",
+        imageUrl: "/images/9.png",
+        pdfUrl: "/pdf/d9.pdf",
+        description: "DataCamp"
+    },
+    {
+        id: 4,
+        title: "Introduction to Java",
+        imageUrl: "/images/10.png",
+        pdfUrl: "/pdf/d10.pdf",
+        description: "DataCamp"
+    },
+    {
+        id: 5,
+        title: "Introduction to Object-Oriented Programming in Java",
+        imageUrl: "/images/11.png",
+        pdfUrl: "/pdf/d11.pdf",
+        description: "DataCamp"
+    },
+    {
+        id: 6,
+        title: "Data Types and Exceptions in Java",
+        imageUrl: "/images/12.png",
+        pdfUrl: "/pdf/d12.pdf",
+        description: "DataCamp"
+    },
+    {
+        id: 7,
         title: "Practical Python for Beginners",
         imageUrl: "/images/4.png",
         pdfUrl: "/pdf/d5.pdf",
         description: "Pluralsight"
     },
     {
-        id: 2,
+        id: 8,
         title: "Exploratory Data Analysis with Python",
         imageUrl: "/images/6.png",
         pdfUrl: "/pdf/d6.pdf",
         description: "Pluralsight"
     },
     {
-        id: 3,
+        id: 9,
         title: "Basic Proficiency in KNIME Analytics Platform",
         imageUrl: "/images/2.png",
         pdfUrl: "/pdf/d0.pdf",
         description: "KNIME"
     },
     {
-        id: 4,
+        id: 10,
         title: "ETL and ELT in Python",
         imageUrl: "/images/1.png",
         pdfUrl: "/pdf/d2.pdf",
         description: "DataCamp"
     },
     {
-        id: 5,
+        id: 11,
         title: "Intermediate SQL",
         imageUrl: "/images/3.png",
         pdfUrl: "/pdf/d3.pdf",
         description: "DataCamp"
     },
     {
-        id: 6,
+        id: 12,
         title: "Introduction to SQL",
         imageUrl: "/images/5.png",
         pdfUrl: "/pdf/d4.pdf",
